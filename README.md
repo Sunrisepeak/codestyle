@@ -24,7 +24,7 @@ class CppStyle { // 类名大驼峰 4
 public:
     void my_func(long long param_long) { // 公有函数名/函数形参 小写 + _分隔 5
         param_long = 2 + param_long; // 运算符 之前 加空格 6
-        intVal++;
+        mIntVar++;
     }
 
     int mIntVar; // 公有成员变量m*开始, 小驼峰 7
